@@ -16,7 +16,6 @@ function App() {
 
     updateCounter();
 
-    // Atualiza uma vez por dia (não obrigatório nesse caso)
     const interval = setInterval(updateCounter, 1000 * 60 * 60 * 24);
     return () => clearInterval(interval);
   }, []);
