@@ -26,7 +26,7 @@ function App() {
         fontFamily: "sans-serif",
         textAlign: "center",
         padding: "2rem",
-        fontSize: "1.5rem",
+        fontSize: "1rem",
       }}
     >
       <h1>📆 Since I start my gender transition</h1>
