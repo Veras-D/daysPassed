@@ -19,7 +19,6 @@ function App() {
       let months = today.getMonth() - fromDate.getMonth();
       let days = today.getDate() - fromDate.getDate();
 
-      // Ajustar negativos
       if (days < 0) {
         const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0);
         days += prevMonth.getDate();
@@ -42,7 +41,6 @@ function App() {
 
   const { years, months, days } = timePassed;
 
-  // 🔹 Formatando output
   let message = "";
   if (years > 0) {
     message = `${years} year${years !== 1 ? "s" : ""}, ${months} month${months !== 1 ? "s" : ""} and ${days} day${days !== 1 ? "s" : ""} had passed.`;
