@@ -46,7 +46,7 @@ function App() {
       const perlutanList: Date[] = [];
       const oestrogelList: Date[] = [];
 
-      const startDate = new Date(lastPerlutan);
+      // const startDate = new Date(lastPerlutan);
       const endDate = new Date();
       endDate.setMonth(endDate.getMonth() + 6);
 
